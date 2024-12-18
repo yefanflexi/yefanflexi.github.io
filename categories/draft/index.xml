@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Draft - 分类 - yefanflexi</title>
+    <link>http://localhost:1313/yefanflexi/?tab=repositories/categories/draft/</link>
+    <description>This is my new Hugo FixIt site</description>
+    <generator>Hugo 0.138.0 &amp; FixIt v0.3.16</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 16 Dec 2024 11:11:53 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/yefanflexi/?tab=repositories/categories/draft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker安装oracle19c</title>
+      <link>http://localhost:1313/yefanflexi/?tab=repositories/posts/747000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/</link>
+      <pubDate>Mon, 16 Dec 2024 11:11:53 +0800</pubDate>
+      <guid>http://localhost:1313/yefanflexi/?tab=repositories/posts/747000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/</guid>
+      <category domain="http://localhost:1313/yefanflexi/?tab=repositories/categories/draft/">Draft</category>
+      <description>Docker安装oracle19c</description>
+    </item>
+  </channel>
+</rss>
