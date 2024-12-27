@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>yefanflexi</title>
-    <link>https://github.com/</link>
+    <link>https://example.org/</link>
     <description>Recent content on yefanflexi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 16 Dec 2024 11:11:53 +0800</lastBuildDate>
-    <atom:link href="https://github.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker安装oracle19c</title>
-      <link>https://github.com/posts/747000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.html</link>
+      <link>https://example.org/posts/747000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.html</link>
       <pubDate>Mon, 16 Dec 2024 11:11:53 +0800</pubDate>
-      <guid>https://github.com/posts/747000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.html</guid>
+      <guid>https://example.org/posts/747000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.html</guid>
       <description>docker 安装 oracle19c docker pull registry.cn-hangzhou.aliyuncs.com/zhuyijun/oracle:19c&#xA;安装 Oracle&#xA;&amp;gt; docker run -d -it --name orcl19c_03 -p 1521:1521 -p 5500:5500 -e ORACLE_SID=orcl -e ORACLE_PDB=orclPDB1 -e ORACLE_PWD=123456 -e ORACLE_EDITION=standard -e ORACLE_CHARACTERSET=AL32UTF8 -v /data/oracle/oracleData:/opt/myData/oracle/oracleData registry.cn-hangzhou.aliyuncs.com/zhuyijun/oracle:19c 上面执行的命令中，备注：&#xA;ORACLE_SID=orcl 是服务名，安装后连接Oracle 时用的服务名，CDB数据库的&#xA;ORACLE_PWD=123456 是安装后 dba 用户的密码，即：123456&#xA;ORACLE_PDB=orclPDB1 是安装后的PDB数据库，想更明白一点，可以往下看6.3.1创建用户的两种方式，一个是在CDB库下，一个是下PDB库下&#xA;docker run -d -it --name orcl19c_03 -p 1521:1521 -p 5500:5500 -e ORACLE_SID=orcl -e ORACLE_PDB=orclPDB1 -e ORACLE_PWD=123456 -e ORACLE_EDITION=standard -e ORACLE_CHARACTERSET=AL32UTF8 -v /data/oracle/oracleData:/opt/myData/oracle/oracleData registry.cn-hangzhou.aliyuncs.com/zhuyijun/oracle:19c docker启动oracle数据库&#xA;Docker 常用命令 1. Docker 基础命令 查看 Docker 版本： docker --version 启动 Docker 服务： sudo systemctl start docker 停止 Docker 服务： sudo systemctl stop docker 查看 Docker 服务状态： sudo systemctl status docker 启动 Docker 容器： docker start &amp;lt;容器ID或名称&amp;gt; 停止 Docker 容器： docker stop &amp;lt;容器ID或名称&amp;gt; 删除 Docker 容器： docker rm &amp;lt;容器ID或名称&amp;gt; 删除 Docker 镜像： docker rmi &amp;lt;镜像ID或名称&amp;gt; 列出所有正在运行的容器： docker ps 列出所有容器（包括停止的）： docker ps -a 列出所有镜像： docker images 2.</description>
     </item>
     <item>
       <title>云平台应急方案</title>
-      <link>https://github.com/posts/76f19f0.html</link>
+      <link>https://example.org/posts/76f19f0.html</link>
       <pubDate>Fri, 13 Dec 2024 12:16:29 +0800</pubDate>
-      <guid>https://github.com/posts/76f19f0.html</guid>
+      <guid>https://example.org/posts/76f19f0.html</guid>
       <description>该应急预案涵盖了多个关键的应急场景和处置流程，但仍有改进空间。可以通过细化职责、优化流程步骤、增加应急测试及演练机制，以及加强通讯和资源协调，进一步提高预案的实用性和可执行性。&#xA;以下是对应的优化建议&#xA;1. 问题：职责描述模糊 说明：例如，指挥小组与执行小组的职责并未完全细化，成员名单中没有列出具体职责和联系人信息，操作时可能导致混乱。 优化建议：在2.2.1和2.2.2部分，添加更加具体的职责分配，明确列出每个小组或个人的责任。附上姓名、联系方式以及其决策权限，以便在应急时快速执行任务。 2. 问题：应急处理步骤过于简略 说明：一些应急场景处理步骤虽然列出，但部分处理流程缺少关键细节或备用处理措施。例如，精密空调的应急处理步骤未完全覆盖可能发生的极端情况。 优化建议：为每个场景的处理步骤补充更为详细的执行流程，包括备用方案。尤其在高风险情况下，提供紧急响应步骤，比如空调故障时的临时制冷措施。可以增加更多的检查点，确保执行团队不遗漏重要细节。 3. 问题：应急预案缺少测试及演练机制 说明：虽然预案详细列出了应急处理措施，但没有提到如何定期对这些方案进行测试或演练。 优化建议：在预案末尾或组织架构部分增加演练和测试计划，确保所有相关人员都清楚各自职责，并且能够在模拟或实际突发情况下迅速反应。此外，制定演练频率（如每季度一次）并记录演练结果以优化预案。 4. 问题：技术层面描述不够具体 说明：关于具体设备故障（如UPS、云平台组件）的描述，虽然给出了一些常见故障和处理建议，但有些技术细节过于简化。例如，设备检查部分仅提到 “检查线路，开关”，最好能附上对应的操作方法或图片示意。 优化建议：可以增加更为详细的设备处理指南，如关键设备的恢复步骤、设备型号的特殊注意事项等。引入更多技术细节，确保抢修人员在没有外部支持的情况下也能处理复杂问题。 5. 问题：应急通讯及协调方式不明确 说明：在大部分应急场景中提到需向指挥小组汇报或联系相关人员，但没有明确通讯渠道和工具的使用方式，可能会在关键时刻延误响应。 优化建议：在“应急组织措施”部分，详细列出通讯工具（如电话、邮件、对讲机等）的优先顺序，确保在通讯中断或系统故障时仍能快速联系到相关人员。增加通讯演练的内容，并确保所有应急联系人可随时调用。 6. 问题：缺少风险评估和优先处理指南 说明：预案虽然详细列出了处理步骤，但没有列出在突发多种故障情况下，如何进行风险优先级判断，可能导致资源调配不当。 优化建议：在每一类应急场景（如空调故障、网络中断等）之前，添加风险评估指南，帮助团队在多种故障发生时判断哪种情况优先处理。同时增加优先处理设备清单，以便应急人员明确哪些设备是业务关键设备，需优先保障。 7. 问题：应急工具和资源的描述不清晰 说明：在列出所需的应急设备、工具时，描述较为笼统，缺乏具体的型号、位置以及备用资源的说明。 优化建议：在每个应急场景中列出具体所需工具的清单，包括型号、存放位置、备用物资的位置等。并确保抢修人员随时可取用这些工具，避免故障时手忙脚乱。 8. 问题：更新机制不够完善 说明：虽然预案提到有更新，但具体更新流程、定期审核机制没有详细说明。 优化建议：增加定期审查机制（如每年或每季度审查一次），明确责任人负责预案更新，并记录审查日期、更新内容，确保预案常备有效。 </description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://github.com/posts/583bc6c.html</link>
+      <link>https://example.org/posts/583bc6c.html</link>
       <pubDate>Thu, 12 Dec 2024 10:52:04 +0800</pubDate>
-      <guid>https://github.com/posts/583bc6c.html</guid>
+      <guid>https://example.org/posts/583bc6c.html</guid>
       <description></description>
     </item>
   </channel>
